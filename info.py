@@ -4,7 +4,7 @@ from os import environ
 id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
-SESSION = environ.get('SESSION', 'TechVJBot')
+SESSION = environ.get('SESSION', 'SkyMovies')
 API_ID = int(environ.get('API_ID', '29445516'))
 API_HASH = environ.get('API_HASH', '18cd4266cf20b74558493a1e7117a631')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
@@ -32,5 +32,5 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "skymovies")
 
 # Shortlink Info
 SHORTLINK = bool(environ.get('SHORTLINK', False)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'api.shareus.io')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'hRPS5vvZc0OGOEUQJMJzPiojoVK2')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arolinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '582a95c922dbb8385df760b9608b962abb2e4886')
