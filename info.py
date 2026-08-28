@@ -31,6 +31,6 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://logukishore9876_db_use
 DATABASE_NAME = environ.get('DATABASE_NAME', "skymovies")
 
 # Shortlink Info
-SHORTLINK = bool(environ.get('SHORTLINK', False)) # Set True Or False
+SHORTLINK = bool(environ.get('SHORTLINK', True)) # Set True Or False
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arolinks.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '582a95c922dbb8385df760b9608b962abb2e4886')
